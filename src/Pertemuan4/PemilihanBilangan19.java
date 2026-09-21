@@ -9,11 +9,14 @@ public class PemilihanBilangan19 {
         System.out.print("Masukkan sebuah angka: ");
         int angka = zaidan.nextInt();
 
-        if (angka % 2 == 0) {
-            System.out.println("Angka " + angka + " termasuk bilangan genap");
-        } else {
-            System.out.println("Angka " + angka + " termasuk bilangan ganjil");
+        String jenis = (angka % 2 == 0) ? "genap" : "ganjil";
+        System.out.println("Angka " + angka + " termasuk bilangan " +jenis);
 
-        }
+        // if (angka % 2 == 0) {
+        //     System.out.println("Angka " + angka + " termasuk bilangan genap");
+        // } else {
+        //     System.out.println("Angka " + angka + " termasuk bilangan ganjil");
+
+        // }
     }
 }
