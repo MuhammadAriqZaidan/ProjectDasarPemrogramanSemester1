@@ -28,10 +28,10 @@ public class SiakadFor19 {
                 jmlMahasiswaTidakLulus++;
             }
         }
-        System.out.println("Nilai tertinggi :" + tertinggi);
-        System.out.println("Nilai terendah :" + terendah);
-        System.out.println("Jumlah mahasiswa yang lulus :" + jmlMahasiswaLulus);
-        System.out.println("Jumlah mahasiswa yang tidak lulus :" + jmlMahasiswaTidakLulus);
+        System.out.println("Nilai tertinggi : " + tertinggi);
+        System.out.println("Nilai terendah : " + terendah);
+        System.out.println("Jumlah mahasiswa yang lulus : " + jmlMahasiswaLulus);
+        System.out.println("Jumlah mahasiswa yang tidak lulus : " + jmlMahasiswaTidakLulus);
 
     }
 }
