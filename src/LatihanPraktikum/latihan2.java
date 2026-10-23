@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class latihan2 {
     public static void main(String[] args) {
-        Scanner Diego = new Scanner(System.in);
+        Scanner Zaidan = new Scanner(System.in);
         
         int hargasepedamotor;
         int uangmuka;
@@ -15,13 +15,13 @@ public class latihan2 {
         double totalcicilanperbulan;
 
         System.out.println("harga sepeda motor: ");
-        hargasepedamotor = Diego.nextInt();
+        hargasepedamotor = Zaidan.nextInt();
 
         System.out.println("uang muka yang telah dibayar: ");
-        uangmuka = Diego.nextInt();
+        uangmuka = Zaidan.nextInt();
 
         System.out.println("jumlah bulan: ");
-        jml_bulan = Diego.nextInt();
+        jml_bulan = Zaidan.nextInt();
 
         sisaharga = hargasepedamotor - uangmuka;
         cicilanperbulan = sisaharga / jml_bulan;
@@ -29,7 +29,7 @@ public class latihan2 {
         totalcicilanperbulan = cicilanperbulan + bungaperbulan;
 
         System.out.println("jadi total yang harus anda bayar perbulan adalah RP: " + totalcicilanperbulan);
-        Diego.close();
+        Zaidan.close();
     }   
     
 }
