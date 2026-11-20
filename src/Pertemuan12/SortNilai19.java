@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class SortNilai19 {
     public static void main(String[] args) {
-        int[] nilai = { 78, 65, 90, 55, 88, 72 };
+        int[] nilai = { 39, 54, 31, 69, 19, 44 };
         for (int i = 0; i < nilai.length - 1; i++) {
             for (int j = 0; j < nilai.length - 1 - i; j++) {
                 if (nilai[j] > nilai[j + 1]) {
