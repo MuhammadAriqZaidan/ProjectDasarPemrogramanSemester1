@@ -8,7 +8,7 @@ public class ArrayBilangan19 {
         int[] bil = { 19, 27, -6, 24 };
 
         for (int i = 0; i < bil.length; i++) {
-            System.out.println("bil[" + i + "] = " + bil[i]);
+            System.out.println("bil[" + i + "] = " + bil[i] + ", double = " + (bil[i] * 2));
         }
 
         for (int nilai : bil) {
