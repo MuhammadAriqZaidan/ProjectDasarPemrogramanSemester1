@@ -1,10 +1,24 @@
 package Pertemuan12;
 
+import java.util.Scanner;
+
 public class SearchNilai19 {
     public static void main(String[] args) {
-        int[] nilai = { 78, 65, 90, 55, 88, 72 };
-        int key = 69;
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Banyak elemen: ");
+        int n = input.nextInt();
+        int[] nilai = new int[n];
+
+        for (int i = 0; i < nilai.length; i++) {
+            System.out.print("Nilai ke-" + (i + 1) + ": ");
+            nilai[i] = input.nextInt();
+        }
+
+        System.out.print("Nilai yang dicari: ");
+        int key = input.nextInt();
         boolean ditemukan = false;
+
         for (int i = 0; i < nilai.length; i++) {
             if (nilai[i] == key) {
                 System.out.println("Nilai " + key + " ditemukan pada indeks ke-" + i);
@@ -17,3 +31,4 @@ public class SearchNilai19 {
         }
     }
 }
+
