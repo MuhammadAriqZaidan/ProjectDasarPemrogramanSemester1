@@ -9,6 +9,7 @@ public class ArrayRataNilai19 {
         int total = 0;
         int jmlLulus = 0;
         double rata2;
+        String predikat;
 
         System.out.print("Masukkan jumlah mahasiswa: ");
         int n = input.nextInt();
@@ -36,6 +37,14 @@ public class ArrayRataNilai19 {
         }
         System.out.println("Nilai tertinggi: " + tertinggi);
         System.out.println("Nilai terendah: " + terendah);
+        if (rata2 >= 85) {
+            predikat = "SANGAT BAIK";
+        } else if (rata2 >= 70) {
+            predikat = "BAIK";
+        } else {
+            predikat = "PERLU PENDAMPINGAN";
+        }
+        System.out.println("Predikat kelas: " + predikat);
         System.out.println("Jumlah mahasiswa lulus: " + jmlLulus);
     }
 }
