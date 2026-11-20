@@ -5,10 +5,10 @@ import java.util.Arrays;
 public class ArrayBilangan19 {
     public static void main(String[] args) {
         int[] bil = new int[4];
-        bil[0] = 19;
-        bil[1] = 27;
-        bil[2] = -6;
-        bil[3] = 24;
+        bil[0] = 5.0;
+        bil[1] = 12867;
+        bil[2] = 7.5;
+        bil[3] = 2000000;
 
         for (int i = 0; i < bil.length; i++) {
             System.out.println("bil[" + i + "] = " + bil[i]);
