@@ -12,9 +12,9 @@ public class BioskopWithScanner19 {
         while (true) {
             System.out.print("Masukkan nama: ");
             nama = sc.nextLine();
-            System.out.print("Masukkan baris: ");
+            System.out.print("Masukkan baris (1-4): ");
             baris = sc.nextInt();
-            System.out.print("Masukkan kolom: ");
+            System.out.print("Masukkan kolom (1-2): ");
             kolom = sc.nextInt();
             sc.nextLine();
 
