@@ -10,7 +10,7 @@ public class Numbers19 {
         myNumbers[2] = new int[1];
 
         for (int i = 0; i < myNumbers.length; i++) {
-            System.out.println(Arrays.toString(myNumbers));
+            System.out.println(Arrays.deepToString(myNumbers));
         }
     }
 }
