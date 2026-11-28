@@ -5,8 +5,12 @@ import java.util.Scanner;
 public class SIAKAD19 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int[][] nilai = new int[4][3];
-
+        System.out.print("Masukkan jumlah mahasiswa: ");
+        int jumlahMhs = sc.nextInt();
+        System.out.print("Masukkan jumlah mata kuliah: ");
+        int jumlahMatkul = sc.nextInt();
+        int[][] nilai = new int[jumlahMhs][jumlahMatkul];
+        
         for (int i = 0; i < nilai.length; i++) {
             System.out.println("Input nilai mahasiswa ke-" + (i + 1));
             double totalPerSiswa = 0;
